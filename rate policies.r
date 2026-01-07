@@ -6,7 +6,7 @@ library(tidyverse)
 # Set the API key: Remove "#" and insert key obtained from fred.stlouisfed.org
 # to set the key for the CURRENT session:
 
-# fredr::fredr_set_key("abcdefghijklmnopqrstuvwxyz123456")
+# fredr::fredr_set_key("YOUR_API_KEY_HERE")
 
 # Searching fed funds rate in the FRED database
 ffr_search <- fredr::fredr_series_search_text(
@@ -156,3 +156,4 @@ width <- 20
 height <- width * 9/16
 
 ggsave("rate_policies.pdf", plot = ecb_fed, width = width, height = height, dpi = 300)
+
