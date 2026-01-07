@@ -14,10 +14,11 @@ This project compares the monetary policy rates of the **European Central Bank (
 * `tidyverse` (Data manipulation & plotting)
 * `fredr` (FRED API Client)
 
-## Setup & Usage
+## Setup
 1.  **Get an API Key:** Request a free API key from [fred.stlouisfed.org](https://fred.stlouisfed.org/docs/api/api_key.html).
 2.  **Configure:** Uncomment the setup line in the script and insert your key:
     ```r
     # fredr::fredr_set_key("YOUR_API_KEY_HERE")
     ```
 3.  **Run:** Execute the script to fetch the latest data and generate the plot.
+4.  Find the finished plot for data fetched on 2026/01/07 in "rate_policies 07012026.pdf"
