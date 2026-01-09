@@ -1,12 +1,9 @@
 # Comparing ECB and Federal Reserve Rate Policies using the FRED Database
 
 ## Overview
-This project compares the monetary policy rates of the **European Central Bank (ECB)** and the **US Federal Reserve**. It serves as a practical demonstration of how to programmatically fetch, clean, and visualize economic data using the [FRED API](https://fred.stlouisfed.org/) and the `fredr` package.
-
-## Features
+This project compares the monetary policy rates of the **European Central Bank (ECB)** and the **US Federal Reserve**. It serves as a practical demonstration of how to fetch, clean, and visualize economic data using the [FRED API](https://fred.stlouisfed.org/) and the `fredr` package.
 * **FRED API Integration:** Shows how to search for series and fetch data using `fredr`.
-* **Data Wrangling:** Filters data to focus on the post-2008 financial crisis era.
-* **Analysis:** Identifies and highlights the specific timeline of the ECB's negative interest rate policy.
+* **Analysis:** Finding and highlighting the specific timeline of the ECB's negative interest rate policy.
 * **Visualization:** Produces a publication-ready `ggplot2` visualization (`rate_policies.pdf`) comparing the federal funds rate against the ECB's rates.
 
 ## Dependencies
